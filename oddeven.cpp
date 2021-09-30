@@ -1,4 +1,5 @@
 #include<iostream>
+#include<conio.h>
 using namespace std;
 
 int main() {
@@ -7,10 +8,10 @@ int main() {
     cin>> n;
 
     if (n%2==0){
-        cout<<"The number is Even"<<endl;
+        cout<<"This number is Even"<<endl;
     }
     else {
-        cout<<"The number is odd"<<endl;
+        cout<<"This number is odd"<<endl;
     }
     return 0;
 } 
