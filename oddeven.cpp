@@ -8,10 +8,10 @@ int main() {
     cin>> n;
 
     if (n%2==0){
-        cout<<"This number is Even"<<endl;
+        cout<<"This number is Even :"<<endl;
     }
     else {
-        cout<<"This number is odd"<<endl;
+        cout<<"This number is odd :"<<endl;
     }
     return 0;
 } 
