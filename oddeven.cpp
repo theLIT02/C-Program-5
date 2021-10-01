@@ -1,17 +1,14 @@
-#include<iostream>
-#include<conio.h>
+#include <iostream>
 using namespace std;
 
 int main() {
     int n;
-    cout<<"Enter the number is: ";
+    cout<<"Enter the number to be checked whether it's even/odd: ";
     cin>> n;
 
-    if (n%2==0){
-        cout<<"This number is Even"<<endl;
-    }
-    else {
-        cout<<"This number is odd"<<endl;
-    }
+    if (n%2==0)
+        cout<<n<<" is Even."<<endl;
+    else
+        cout<<n<<" is Odd."<<endl;
     return 0;
 } 
